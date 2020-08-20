@@ -1,0 +1,9 @@
+{
+    "pingResponse": "🏓Pong !",
+    "mustDM": "❌Command must be called in direct messages",
+    "heistTableName": "Available heists",
+    "heistTableHeadingID": "ID",
+    "heistTableHeadingName": "Name",
+    "heistTableHeadingReward": "Reward",
+    "heistTableHeadingPlayers": "Players"
+}

@@ -1,0 +1,8 @@
+const str = require('../strings.json')
+module.exports = {
+	name: ``,
+	description: ``,
+	execute(message, args) {
+		
+	},
+};
