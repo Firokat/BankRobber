@@ -1,0 +1,23 @@
+{
+  "name": "bankrobber",
+  "version": "1.0.0",
+  "description": "BankRobber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firokat/BankRobber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Firokat/BankRobber/issues"
+  },
+  "homepage": "https://github.com/Firokat/BankRobber#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.3.1"
+  }
+}
