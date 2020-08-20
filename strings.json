@@ -1,4 +1,5 @@
 {
+    "pingDescription": "Check connection with the bot",
     "pingResponse": "🏓Pong !",
     "mustDM": "❌Command must be called in direct messages",
     "heistTableName": "Available heists",
