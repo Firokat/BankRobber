@@ -1,4 +1,5 @@
 {
+    "heist": "Heist",
     "pingDescription": "Check connection with the bot",
     "pingResponse": "🏓Pong !",
     "startDescription": "Starts the heist",
@@ -8,5 +9,9 @@
     "heistTableHeadingName": "Name",
     "heistTableHeadingReward": "Reward",
     "heistTableHeadingPlayers": "Players",
-    "notValidID": "This is not a valid ID"
+    "selectHeist": "Select an entry",
+    "notValidID": "This is not a valid ID, retype the command",
+    "confirmHeist": " is selected, react tov this message to confirm or cancel.",
+    "canceled": "You cancelled 😢, see you next time !",
+    "waitForGuild": "An invitation link to the game server will be provided"
 }
