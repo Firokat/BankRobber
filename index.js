@@ -22,7 +22,7 @@ client.on('message', message =>{
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
 
-    if(commandList.includes(command))client.commands.get(command).execute(message, args)
+    if(commandList.includes(command))client.commands.get(command).execute(message, args, client)
 
 });
  

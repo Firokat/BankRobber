@@ -10,4 +10,3 @@ for (const i in data) {
 
 tableStr = heistTable.toString();
 module.exports = {tableStr}
-

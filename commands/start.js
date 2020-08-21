@@ -1,10 +1,11 @@
 const str = require('../strings.json')
 const {tableStr} = require('../utils/heistTableCreator.js')
 const {data} = require('../utils/heistFilesParser.js')
+const guildCreator = require('../utils/GuildInit.js')
 module.exports = {
 	name: `start`,
 	description: str.startDescription,
-	execute(message, args) {
+	execute(message, args, client) {
         channel = message.channel
         if (channel.type != "dm"){
             channel.send(str.mustDM)
@@ -28,12 +29,12 @@ module.exports = {
                 filter = (e, u) => !u.bot
                 collector = m.createReactionCollector(filter, {time:30000, max: 1})
                 collector.on('collect', r => {
-                    console.log(r)
                     if(r.emoji.name!=`✅`) {
                         channel.send(str.canceled)
                         return
                     }
                     channel.send(str.waitForGuild)
+                    guildCreator.guildInit(client, id, channel)
                 })
                 
 

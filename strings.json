@@ -1,5 +1,6 @@
 {
     "heist": "Heist",
+    "noPermission": "❌You're not allowed to call this command",
     "pingDescription": "Check connection with the bot",
     "pingResponse": "🏓Pong !",
     "startDescription": "Starts the heist",
