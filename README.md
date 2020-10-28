@@ -1,6 +1,6 @@
 # BankRobber
 
-# THIS IS A WIP !
+# THIS IS ABANDONNED !
 
 ## What is Bankrobber
 
